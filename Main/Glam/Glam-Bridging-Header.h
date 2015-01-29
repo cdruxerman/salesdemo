@@ -10,4 +10,7 @@
 #define Glam_Glam_Bridging_Header_h
 
     #import "ECSlidingViewController.h"
+    #import <Taplytics/Taplytics.h>
+
 #endif
+

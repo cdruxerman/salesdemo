@@ -1,0 +1,6 @@
+#include "Pods-Taplytics.xcconfig"
+FRAMEWORK_SEARCH_PATHS = ${PODS_TAPLYTICS_FRAMEWORK_SEARCH_PATHS}
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/Taplytics" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Taplytics"
+OTHER_LDFLAGS = ${PODS_TAPLYTICS_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
